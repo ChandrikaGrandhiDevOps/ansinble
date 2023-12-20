@@ -1,4 +1,5 @@
 - name: ping playbook
+  user: centos
   hosts: web
   tasks:
   - name: ping the server
