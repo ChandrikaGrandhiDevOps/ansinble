@@ -2,6 +2,7 @@
   hosts: web
   user: centos
   become: yes
+  connection: ssh
   tasks:
   - name: install nginx package
     ansible.builtin.package:
