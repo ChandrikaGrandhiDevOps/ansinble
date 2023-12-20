@@ -1,5 +1,7 @@
 - name: install and run nginx
   hosts: wed
+  user: centos
+  become: yes
   tasks:
   - name: install nginx package
     ansible.builtin.package:
