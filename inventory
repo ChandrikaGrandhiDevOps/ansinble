@@ -2,3 +2,6 @@
 3.87.98.220
 [dev]
 192.89.09.29
+[roboshop:children]
+web
+dev
