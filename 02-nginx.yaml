@@ -1,5 +1,5 @@
 - name: install and run nginx
-  hosts: wed
+  hosts: web
   user: centos
   become: yes
   tasks:
