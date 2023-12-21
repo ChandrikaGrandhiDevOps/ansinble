@@ -1,0 +1,15 @@
+#!/bin/bash
+
+- name: variabels from PLAY level
+  hosts: localhost
+  user: centos
+  become: yes
+  connection: ssh
+  vars:
+    Course: "DevOps"
+    Trainer: "SivaKumar"
+    Dur: 110hrs
+  tasks:
+  - name: check the variabels
+    ansible.builtin.debug:
+     msg: "hi, i am learning {{Course}} and trainer is {{Trainer}} and duration is {{Dur}}"
