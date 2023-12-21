@@ -1,4 +1,4 @@
-#!/bin/bash
+
 
 - name: traying file from inventory
   hosts: localhost
