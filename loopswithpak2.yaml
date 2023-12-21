@@ -9,6 +9,6 @@
       name: "{{item.name}}"
       state: "{{item.state}}"
     loop:
-    - {name: 'git', state: 'present'}
+    - {name: 'git', state: 'absent'}
     - {name: 'maven', state: 'absent'}
     - {name: 'mysql', state: 'absent'}
