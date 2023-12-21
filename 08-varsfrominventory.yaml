@@ -1,0 +1,11 @@
+#!/bin/bash
+
+- name: traying file from inventory
+  hosts: localhost
+  user: centos
+  become: yes
+  connection: ssh
+  tasks:
+  - name: training
+    ansible.builtin.debug:
+      msg: "my {{Course}} is {{Trainer}}
