@@ -3,6 +3,7 @@
   user: centos
   become: yes
   connection: ssh
+  password: DevOps321
   tasks:
   - name: looops
     ansible.builtin.debug:
@@ -13,4 +14,3 @@
     - robert 
     - gopi
     - chandu
-    
