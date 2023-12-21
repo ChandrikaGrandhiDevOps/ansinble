@@ -13,4 +13,4 @@
   tasks:
   - name: testing at peaks celebration of variabels
     ansible.builtin.debug:
-    msg: "my name is {{NAME}},i am studying {{COURSE}} at {{COLLEGE}}in {{COUNTRY}}"
+      msg: "my name is {{NAME}},i am studying {{COURSE}} at {{COLLEGE}}in {{COUNTRY}}"
