@@ -12,5 +12,7 @@
    COLLEGE: Park University
   tasks:
   - name: testing at peaks celebration of variabels
+    vars: 
+     NAME: KITEPALLI CHANDRIKA
     ansible.builtin.debug:
-      msg: "my name is {{NAME}},i am studying {{COURSE}} at {{COLLEGE}}in {{COUNTRY}}"
+      msg: "my name is {{NAME}},i am studying {{COURSE}} at {{COLLEGE}} in {{COUNTRY}}"
