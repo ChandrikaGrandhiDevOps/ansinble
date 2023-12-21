@@ -1,0 +1,15 @@
+- name: loops
+  hosts: localhost
+  user: centos
+  become: yes
+  connection: ssh
+  tasks:
+  - name: looops
+    ansible.builtin.debug:
+     msg: "hello {{item}}"
+    loop: 
+    - ramesh
+    - suresh
+    - robert 
+    - gopi
+    - chandu
