@@ -10,4 +10,4 @@
   tasks:
   - name: testing variabels from files
     ansible.builtin.debug:
-      mes: "i am taking {{Course}} from {{Trainer}}"
+      msg: "i am taking {{Course}} from {{Trainer}}"
