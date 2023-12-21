@@ -11,4 +11,4 @@
     Dur: 110hrs
   tasks:
   - name: check the variabels
-    action: "hi, i am learning {{Course}} and trainer is {{Trainer}} and duration is {{Dur}}"
+    msg: "hi, i am learning {{Course}} and trainer is {{Trainer}} and duration is {{Dur}}"
