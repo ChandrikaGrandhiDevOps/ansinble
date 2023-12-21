@@ -6,6 +6,6 @@
   become: yes
   connection: ssh
   tasks:
-  - name: training
+  - name: inventory files
     ansible.builtin.debug:
       msg: "my {{Course}} is {{Trainer}}"
