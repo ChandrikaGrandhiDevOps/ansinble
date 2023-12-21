@@ -6,7 +6,7 @@
   tasks:
   - name: installing git,mysql
     ansible.builtin.package:
-     action: "{{item}}"
+     name: "{{item}}"
      state: present
     loop:
     - git
