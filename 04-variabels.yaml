@@ -11,4 +11,5 @@
     Dur: 110hrs
   tasks:
   - name: check the variabels
+    ansible.builtin.debug:
     msg: "hi, i am learning {{Course}} and trainer is {{Trainer}} and duration is {{Dur}}"
