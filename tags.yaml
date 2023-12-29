@@ -1,0 +1,19 @@
+- name: ping playbook 
+  hosts: web
+  tasks:
+  - name: ping the server
+    ping:
+
+  - name: print the message
+    debug:
+      msg: "hello DevOps"
+    tags:
+    - devops
+
+  - name: calling aws
+    debug:
+      msg: "hello aws"
+    tags:
+    - aws  
+
+
