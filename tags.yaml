@@ -8,7 +8,7 @@
     debug:
       msg: "hello DevOps"
     tags:
-    - devops
+    - Devops
 
   - name: calling aws
     debug:
